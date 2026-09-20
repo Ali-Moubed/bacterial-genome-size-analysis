@@ -89,5 +89,3 @@ plot(model)
 # 6. Influential observations
 # ---------------------------------------------------------
 sort(cooks.distance(model),decreasing = TRUE)[1:10]
-
-top10 <- order(cooks.distance(model), decreasing = TRUE)[1:10]
